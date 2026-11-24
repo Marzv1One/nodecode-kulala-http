@@ -9,4 +9,5 @@
 
 (in-package #:marzv1one-kulala-http)
 
-(define-peripheral kulala-http :not-running t)
+;; Keep the internal peripheral name distinct from the discoverable prose skill.
+(define-peripheral kulala-http-cell :not-running t)
